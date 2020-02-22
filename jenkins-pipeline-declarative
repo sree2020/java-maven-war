@@ -2,7 +2,7 @@ pipeline {
     //agent {label 'slave'}
     agent any
      tools {
-        maven 'maven3'
+        maven 'default'
         jdk 'openjdk8'
     }
     stages {
